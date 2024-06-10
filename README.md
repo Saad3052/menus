@@ -3,6 +3,7 @@
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 **For Option menu main end**
+
 **For Option menu**
 
     @Override
@@ -94,6 +95,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         TextView textView = findViewById(R.id.context_textview);
         registerForContextMenu(textView);
 **For context menu main end**
+
 **For context menu**
 
     @Override
@@ -121,6 +123,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     }
 
 **For context menu end**
+
 **For context menu XML**
  <TextView
         android:id="@+id/context_textview"
@@ -149,6 +152,7 @@ Create new file:
 </menu>
 **context menu xml end**
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            
 **For popup menu**
 
     public void showPopupMenu(View view){
