@@ -191,18 +191,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="showPopupMenu"
-        android:text="Click for popup menu
-"
+        android:text="Click for popup menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/context_textview" />
         
 Create new file:
-
-
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/ibold"
@@ -213,4 +208,4 @@ Create new file:
     <item
         android:id="@+id/iunderline"
         android:title="underline"/>
-</menu>
+
