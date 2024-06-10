@@ -64,8 +64,7 @@
 
 
 create new file option_menu.xml
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/menuprofile"
         android:title="profile"/>
@@ -87,7 +86,7 @@ create new file option_menu.xml
     <item
         android:id="@+id/menuexit"
         android:title="Exit"/>
-</menu>
+
 **Option menu XML end**
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 **For context menu main**
@@ -125,7 +124,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 **For context menu end**
 
 **For context menu XML**
- <TextView
+ <TextView 
+         
         android:id="@+id/context_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -138,8 +138,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
 Create new file:
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/cut"
         android:title="cut"/>
@@ -149,7 +148,7 @@ Create new file:
     <item
     android:id="@+id/paste"
     android:title="paste"/>
-</menu>
+
 **context menu xml end**
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             
@@ -187,6 +186,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 **For popup menu end**
  <Button
+         
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -197,6 +197,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/context_textview" />
+        
 Create new file:
 
 
